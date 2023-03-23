@@ -1,7 +1,103 @@
+
+
+#cars
+{
+  text-align: center;
+}
 #menu
 {
 	position: fixed;
 	width: 100%;
 	height: 35px;
 	background: white;
+	text-align: center;
+}
+#qrcoder
+{
+  text-align: center;  
+}
+
+
+#abouttitle
+{
+text-align: center;
+font-style:oblique ;
+font-size:x-large;
+}
+#playlist
+{
+  text-align: center;
+}
+
+#LikeButton
+{
+  text-align: center;
+}
+
+#like
+{
+  text-align: center;
+  background-size: 1500px;
+  background-position: 180px;
+  background-repeat: no-repeat;
+  
+}
+#pics
+{
+  text-align: center;
+}
+#gallery-img
+{
+  display: flex;
+
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+#abouttext
+{
+  
+  text-align: center;
+  background-repeat: no-repeat;
+  font-size: "200";
+  /* background-attachment: fixed; */
+  
+  background-size: cover;
+}
+
+#myphotos
+{
+text-align: center;
+}
+#menulist 
+{
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+	margin-right: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+	background-color: #333333;
+  
+}
+li {
+  float: left;
+	
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
 }
