@@ -33,7 +33,30 @@ font-size:x-large;
 {
   text-align: center;
 }
+@-webkit-keyframes blink { 50% { border-color: #44aff1; }  }
+#img2
+{
+  border: 5px solid #555;
+  /* border-radius: 55px;  */
+-webkit-animation: blink .30s step-end infinite alternate;
 
+}
+#img3
+{
+  /* border: 5px solid #555; */
+  background-color: #44aff1;
+  height: 30px;
+  width: 80px;
+  border-radius: 100px;
+  
+}
+
+#img1
+{
+  border: 5px solid #555;
+  border-radius: 55px;
+  
+}
 #like
 {
   text-align: center;
@@ -42,6 +65,7 @@ font-size:x-large;
   background-repeat: no-repeat;
   
 }
+
 #pics
 {
   text-align: center;
@@ -70,6 +94,9 @@ font-size:x-large;
 #myphotos
 {
 text-align: center;
+}
+html {
+  scroll-behavior: smooth;
 }
 #menulist 
 {

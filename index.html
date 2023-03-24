@@ -78,18 +78,18 @@ about me
 <br/>
 <br/>
 <p id="myphotos">
-my photos
+<p style="color: rgb(15, 182, 233); font-size: 30px; text-align: center;">my photos</p>
 </p>
 <br/>
 <!-- <div id="pics"> -->
 <div class="gallery">
   
 
-<img src=ral0.jpg width=300 height=300 class="gallery-img"  />
-<img src=ral1.jpg width=300 height=300 class="gallery-img"/>
-<img src=ral2.jpg width=300 height=300 class="gallery-img"/>
-<img src=ral3.jpg width=300 height=300 class="gallery-img"/>
-<img src=gif1.webp width=300 height=300 class="gallery-img"/>
+<img id= img1 src=ral0.jpg width=300 height=300 class="gallery-img"  />
+<img id= img1 src=ral1.jpg width=300 height=300 class="gallery-img"/>
+<img id= img1 src=ral2.jpg width=300 height=300 class="gallery-img"/>
+<img id= img1 src=ral3.jpg width=300 height=300 class="gallery-img"/>
+<img id= img1 src=gif1.webp width=300 height=300 class="gallery-img"/>
 
 </div>
 <br/>
@@ -103,12 +103,23 @@ my photos
 <br/>
 <br/>
 <br/>
-my playlist
+<p style="color: rgb(15, 182, 233); font-size: 30px; text-align: center;">my playlist</p>
+<br/>
+<iframe width="860" height="615" src="https://www.youtube.com/embed/s2TyVQGoCYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
-<a href="https://www.youtube.com/watch?v=pl5WHx8QCVk">Ralphs Favorite song </a> 
-<br/>
-<br/>
 </section>
 
 <section style="background-image: url('RalphLike.png');" id="like" class="section">
@@ -144,9 +155,9 @@ my playlist
 
 <br/>
 <br/>
-<p style="font-size: 50px;">scan my code</p>
+<p style="color: rgb(15, 182, 233); font-size: 55px;">scan my code</p>
 <br/>
-<img src=qr.jpg width=400 height=400 />
+<img id= img2 src=qr.jpg width=400 height=400 />
 <br/>
 <br/>
 </section>
@@ -166,7 +177,9 @@ my playlist
   </tr>
   <tr>
     <p>
-    <td>The first version of the World Wide Web, also known as the static web, was mainly composed of static HTML pages that could only display text and images. There was no interactivity, and users could not contribute or create content on the web. This version was limited to basic information sharing and had no dynamic content or multimedia.</td>
+    <td>The first version of the World Wide Web, also known as the static web, was mainly composed of static HTML pages that could only display text and images. There was no interactivity, and users could not contribute or create content on the web. This version was limited to basic information sharing and had no dynamic content or multimedia.
+      weather application on Web 1.0 and Web 3.0 could look vastly different due to the latter's ability to incorporate intelligent agents, artificial intelligence, and machine learning algorithms to provide a personalized and immersive experience.
+    </td>
   </p>
   <p>
     <td>The second version of the web, also known as the social web or interactive web, introduced dynamic content, social networking, and user-generated content. Web2 enabled users to interact with web content, create and share their own content, and participate in online communities. This version of the web facilitated the development of social media, video sharing platforms, and collaborative applications.</td>
@@ -186,7 +199,7 @@ my playlist
 
 <br/>
 
-contact me
+<p style="color: rgb(15, 182, 233); font-size: 30px; text-align: center;">Contact me</p>
 <br/>
 <form action="mailto:shaharasg1@gmail.com" method="post" enctype="text/plain">
   Name:<br>
@@ -197,32 +210,34 @@ contact me
   <input style="height: 200px; width:300px;" type="text" name="message"  ><br><br><br><br><br/>
 
 <br/>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <label>Add EMOJI to your message's content</label>
-<select name="Emoji" id="cars">
-  <!-- <p></p> -->
-  <meta charset="UTF-8">
+<select name="Emoji" id="emoji">
   <option value="&#128512;" >&#128512</option>
   <option value="&#128516;">&#128516</option>
   <option value="&#128525;">&#128525</option>
   <option value="&#128151;">&#128151</option>
 </select>
 <br/>
-<input type="image" src="submit.png" alt="Submit" width="80" height="30">
+<input id=img3 type="submit"  alt="submit" width="80" height="30">
 </form>
 
 
 
-<br/>
-<br/>
+
+
+
 </section>
+
 
 
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
+    
     $('html,body').scrollTo(this.hash,this.hash); 
+    
   });
 });
 </script>
@@ -231,5 +246,7 @@ $(function(){
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
  </script>
+ 
 </body>
+
 </html>
